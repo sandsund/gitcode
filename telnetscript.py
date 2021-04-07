@@ -15,6 +15,7 @@ if password:
 
 tn.write(b"conf t\n")
 tn.write(b"int lo15\n")
+tn.write(b"ip address 1.1.1.1 255.255.255.255\n")
 tn.write(b"end\n")
 tn.write(b"wr\n")
 tn.write(b"exit\n")
